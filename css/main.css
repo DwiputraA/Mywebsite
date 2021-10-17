@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabang {
+    padding: 20px;
+    margin: 20px;
+}
+
+.cabang img {
+    width: 100%;
+    height: 100%;
+}
+
+.cabang h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+.kegiatan h2 {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(121, 121, 121);
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.contaier {
+    align-items: center;
+}
+
+.visi h2 {
+     text-align: center;
+     size: 20px;
+     color: rgb(248, 7, 7);
+}
+
+.visi P {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(11, 7, 252);
+}
+
+.kerja h2 {
+    font-size: 30px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+.kerja p {
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(126, 126, 126);
+    font-size: 25px;
+}
+
+.tujuan h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+.tujuan p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: blue;
+    font-size: 25px;
+}
+
+.pengurus h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+}
+
+.pengurus p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.satu {
+    color:red;
+    font-family: sans-serif;
+}
+
+.staff img {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
+
+.staff-2 img {
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
+
+.staff-3 img {
+    border-radius: 50%;
+    width: 30%;
+    height: 15%;
+    margin: auto;
+}
+
+.staff h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.staff-2 h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.staff-3 h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.staff p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+}
+
+
+.staff-2 p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+}
+
+
+.staff-3 p {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 126, 126);
+}
+
+.logo img {
+    width: 60%;
+    height: 35%;
+}
+
+section h3 {
+	color: rgb(121, 120, 120);
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.col-4 {
+	width: 25%;
+	box-sizing: border-box;
+    padding: 5px;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+    color: lightgray;
+}
+
+.col-3 {
+	width: 33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding: 50px 10px;
+}
+.col-3 h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(150, 148, 148);
+	margin-bottom: 15px;
+    color: rgb(114, 113, 113);
+}
+
+.col-3 p {
+    color: rgb(117, 116, 116);
+}
+
+
+
+
+footer {
+	background-color: rgba(177, 176, 176, 0.452);
+    color: rgb(66, 66, 66);
+	padding: 60px;
+    border-bottom: 1px solid rgb(150, 148, 148);
+	text-align:center;
+}
+html {
+	scroll-behavior: smooth;
+}
+@media (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+	.col-4 {
+		width: 50%
+	}
+	.col-3 {
+		width: 100%
+	}
+    .visi h2 {
+        font-size: 15px;
+    }
+    .visi p {
+        font-size: 12px;
+        text-align: left;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .tujuan h2 {
+        font-size: 25px;
+        text-align: left;
+    }
+    .tujuan p {
+        font-size: 20px;
+        text-align: left;
+        font-size: 15px
+    }
+    .kerja h2 {
+        font-size: 20px;
+    }
+    .kerja p {
+        font-size: 15px;
+    }
+    .pengurus h2 {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .pengurus p {
+        text-align: left;
+        font-size: 13px;
+        color: rgb(151, 151, 151);
+    }
+    .logo img {
+        width: 60%;
+        height: 35%;
+    }
+    .staff p {
+        font-size: 20px;
+    }
+}
